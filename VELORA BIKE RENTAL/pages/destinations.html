@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+  <meta name="description" content="Discover India's most memorable motorcycle routes with RYVON.">
+  <title>Famous Riding Destinations — RYVON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=39">
+</head>
+<body data-page="destinations" data-loading-label="LOADING DESTINATIONS">
+    <!-- RYVON Reusable Preloader Component -->
+    <div id="ryvon-loader" class="ryvon-loader" aria-live="polite" aria-label="Loading RYVON">
+      <script>
+        (function() {
+          // Immediately apply theme class to prevent white flash before JS loads
+          var theme = localStorage.getItem('rideos-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.body.classList.add('dark');
+          }
+          
+          var isHome = document.body.dataset.page === 'home';
+          var labelText = document.body.dataset.loadingLabel || 'LOADING';
+          var inPages = window.location.pathname.replace(/\\/g, '/').includes('/pages/');
+          var bikeImgUrl = (inPages ? '../' : '') + 'assets/images/ryvon-superbike.png';
+          
+          var loader = document.getElementById('ryvon-loader');
+          if (isHome) {
+            loader.classList.add('is-home');
+          } else {
+            loader.classList.add('is-subpage');
+          }
+          
+          var contentHtml = '<div class="ryvon-loader-content">' +
+            '<div class="ryvon-loader-bike-wrap">' +
+              '<img src="' + bikeImgUrl + '" class="ryvon-loader-bike-trail trail-3" alt="" aria-hidden="true">' +
+              '<img src="' + bikeImgUrl + '" class="ryvon-loader-bike-trail trail-2" alt="" aria-hidden="true">' +
+              '<img src="' + bikeImgUrl + '" class="ryvon-loader-bike-trail trail-1" alt="" aria-hidden="true">' +
+              '<img src="' + bikeImgUrl + '" class="ryvon-loader-bike" alt="RYVON Superbike">' +
+              '<div class="ryvon-loader-streaks">' +
+                '<span class="ryvon-streak streak-1"></span>' +
+                '<span class="ryvon-streak streak-2"></span>' +
+                '<span class="ryvon-streak streak-3"></span>' +
+              '</div>' +
+              '<div class="ryvon-loader-shadow"></div>' +
+            '</div>' +
+            '<div class="ryvon-loader-glow-container">' +
+              '<div class="ryvon-loader-glow-beam"></div>' +
+            '</div>';
+
+          if (isHome) {
+            contentHtml += '<h1 class="ryvon-loader-wordmark">RYVON</h1>' +
+                           '<p class="ryvon-loader-sublabel">' + labelText + '</p>';
+          } else {
+            contentHtml += '<p class="ryvon-loader-sublabel is-subpage">' + labelText + '</p>';
+          }
+          
+          contentHtml += '</div>';
+          loader.innerHTML = contentHtml;
+
+          // Safety failsafe: ensure preloader never hangs indefinitely
+          setTimeout(function() {
+            var l = document.getElementById('ryvon-loader');
+            if (l && !l.classList.contains('fade-out')) {
+              l.classList.add('fade-out');
+              setTimeout(function() { if (l && l.parentNode) l.remove(); }, 600);
+            }
+          }, 3500);
+        })();
+      </script>
+    </div>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header id="site-header"></header>
+  <main id="app" tabindex="-1"></main>
+  <footer id="site-footer"></footer>
+  <button class="back-top" type="button" aria-label="Back to top">↑</button>
+  <div class="toast-region" aria-live="polite"></div>
+  <div class="modal-root"></div>
+  <script src="../assets/js/app.js?v=39" defer></script>
+</body>
+</html>
