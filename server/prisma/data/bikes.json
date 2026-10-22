@@ -1,0 +1,1294 @@
+[
+  {
+    "id": "scrambler400x",
+    "name": "Triumph Scrambler 400X",
+    "brand": "Triumph",
+    "type": "Adventure",
+    "pricePerDay": 1649,
+    "deposit": 4000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "triumph-scrambler-400x.jpg",
+    "engine": "398 cc",
+    "power": "40 PS",
+    "torque": "37.5 Nm",
+    "weight": "185 kg",
+    "seat": "835 mm",
+    "topSpeed": "152 km/h",
+    "fuelCap": "13 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 93,
+        "adventure": 96,
+        "city": 85,
+        "beginner": 78,
+        "longRide": 94,
+        "mileage": 83,
+        "bestFor": "Scrambler Dirt Trails & Mountain Pass"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "ktmadv390",
+    "name": "KTM Adventure 390 Rally",
+    "brand": "KTM",
+    "type": "Adventure",
+    "pricePerDay": 1749,
+    "deposit": 4500,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "ktm-adventure-390.jpg",
+    "engine": "373 cc",
+    "power": "43.5 PS",
+    "torque": "37 Nm",
+    "weight": "177 kg",
+    "seat": "855 mm",
+    "topSpeed": "155 km/h",
+    "fuelCap": "14.5 L",
+    "extra": {
+      "aiMatch": "99% Match",
+      "dna": {
+        "comfort": 90,
+        "adventure": 98,
+        "city": 80,
+        "beginner": 70,
+        "longRide": 95,
+        "mileage": 80,
+        "bestFor": "Hardcore Offroad Rally & Slopes"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "scram411",
+    "name": "Royal Enfield Scram 411 Trail",
+    "brand": "Royal Enfield",
+    "type": "Adventure",
+    "pricePerDay": 1299,
+    "deposit": 3500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-scram-411.jpg",
+    "engine": "411 cc",
+    "power": "24.3 PS",
+    "torque": "32 Nm",
+    "weight": "185 kg",
+    "seat": "795 mm",
+    "topSpeed": "130 km/h",
+    "fuelCap": "15 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 92,
+        "adventure": 94,
+        "city": 88,
+        "beginner": 84,
+        "longRide": 90,
+        "mileage": 85,
+        "bestFor": "Urban Crossover & Unpaved Mountain Roads"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "vstrom250",
+    "name": "Suzuki V-Strom SX 250",
+    "brand": "Suzuki",
+    "type": "Adventure",
+    "pricePerDay": 1399,
+    "deposit": 3500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "suzuki-v-strom-sx-250.jpg",
+    "engine": "249 cc",
+    "power": "26.5 PS",
+    "torque": "22.2 Nm",
+    "weight": "167 kg",
+    "seat": "835 mm",
+    "topSpeed": "138 km/h",
+    "fuelCap": "12 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 94,
+        "adventure": 92,
+        "city": 86,
+        "beginner": 86,
+        "longRide": 92,
+        "mileage": 88,
+        "bestFor": "Lightweight Dual-Sport Highway & Trails"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "bmwf850",
+    "name": "BMW F 850 GS Expedition",
+    "brand": "BMW",
+    "type": "Adventure",
+    "pricePerDay": 2899,
+    "deposit": 9000,
+    "rating": "5.0",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "bmw-f850-gs.jpg",
+    "engine": "853 cc",
+    "power": "95 PS",
+    "torque": "92 Nm",
+    "weight": "233 kg",
+    "seat": "860 mm",
+    "topSpeed": "197 km/h",
+    "fuelCap": "15 L",
+    "extra": {
+      "aiMatch": "100% Match",
+      "dna": {
+        "comfort": 98,
+        "adventure": 100,
+        "city": 70,
+        "beginner": 55,
+        "longRide": 100,
+        "mileage": 72,
+        "bestFor": "Heavyweight Trans-Himalayan Tourer"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐",
+        "mileage": "⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "supermeteor",
+    "name": "Super Meteor 650 Cruiser",
+    "brand": "Royal Enfield",
+    "type": "Cruiser",
+    "pricePerDay": 1849,
+    "deposit": 5000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-super-meteor-650.jpg",
+    "engine": "648 cc",
+    "power": "47 PS",
+    "torque": "52.3 Nm",
+    "weight": "241 kg",
+    "seat": "740 mm",
+    "topSpeed": "168 km/h",
+    "fuelCap": "15.7 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 98,
+        "adventure": 74,
+        "city": 78,
+        "beginner": 72,
+        "longRide": 99,
+        "mileage": 76,
+        "bestFor": "Ultra Luxury Interstate Cruising"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐",
+        "mileage": "⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "meteor",
+    "name": "Meteor 350 Stellar",
+    "brand": "Royal Enfield",
+    "type": "Cruiser",
+    "pricePerDay": 1399,
+    "deposit": 3500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-meteor-350.jpg",
+    "engine": "349 cc",
+    "power": "20.4 PS",
+    "torque": "27 Nm",
+    "weight": "191 kg",
+    "seat": "765 mm",
+    "topSpeed": "120 km/h",
+    "fuelCap": "15 L",
+    "extra": {
+      "aiMatch": "95% Match",
+      "dna": {
+        "comfort": 96,
+        "adventure": 75,
+        "city": 86,
+        "beginner": 88,
+        "longRide": 92,
+        "mileage": 88,
+        "bestFor": "Relaxed Coastal & Highway Cruising"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "classic350",
+    "name": "Classic 350 Heritage",
+    "brand": "Royal Enfield",
+    "type": "Cruiser",
+    "pricePerDay": 1299,
+    "deposit": 3500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-classic-350.png",
+    "engine": "349 cc",
+    "power": "20.2 PS",
+    "torque": "27 Nm",
+    "weight": "195 kg",
+    "seat": "805 mm",
+    "topSpeed": "115 km/h",
+    "fuelCap": "13 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 90,
+        "adventure": 78,
+        "city": 84,
+        "beginner": 85,
+        "longRide": 88,
+        "mileage": 86,
+        "bestFor": "Heritage Countryside Touring"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "bullet350",
+    "name": "Bullet 350 Military Edition",
+    "brand": "Royal Enfield",
+    "type": "Cruiser",
+    "pricePerDay": 1199,
+    "deposit": 3000,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-bullet-350.jpg",
+    "engine": "349 cc",
+    "power": "20.2 PS",
+    "torque": "27 Nm",
+    "weight": "195 kg",
+    "seat": "805 mm",
+    "topSpeed": "114 km/h",
+    "fuelCap": "13 L",
+    "extra": {
+      "aiMatch": "95% Match",
+      "dna": {
+        "comfort": 90,
+        "adventure": 78,
+        "city": 82,
+        "beginner": 82,
+        "longRide": 88,
+        "mileage": 86,
+        "bestFor": "Iconic Heavy Thump Heritage Ride"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "activa6g",
+    "name": "Honda Activa 6G Deluxe",
+    "brand": "Honda",
+    "type": "Scooter",
+    "pricePerDay": 599,
+    "deposit": 1500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "honda-activa-6g.jpg",
+    "engine": "109.5 cc",
+    "power": "7.79 PS",
+    "torque": "8.84 Nm",
+    "weight": "107 kg",
+    "seat": "692 mm",
+    "topSpeed": "85 km/h",
+    "fuelCap": "5.3 L",
+    "extra": {
+      "aiMatch": "99% Match",
+      "dna": {
+        "comfort": 92,
+        "adventure": 50,
+        "city": 100,
+        "beginner": 100,
+        "longRide": 60,
+        "mileage": 98,
+        "bestFor": "Effortless Daily City Commute & Market Runs"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "activa125",
+    "name": "Honda Activa 125 FI Premium",
+    "brand": "Honda",
+    "type": "Scooter",
+    "pricePerDay": 699,
+    "deposit": 2000,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "honda-activa-125.jpg",
+    "engine": "124 cc",
+    "power": "8.3 PS",
+    "torque": "10.4 Nm",
+    "weight": "109 kg",
+    "seat": "712 mm",
+    "topSpeed": "90 km/h",
+    "fuelCap": "5.3 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 94,
+        "adventure": 55,
+        "city": 99,
+        "beginner": 98,
+        "longRide": 68,
+        "mileage": 95,
+        "bestFor": "Smooth 125cc City Commute & Pillion Comfort"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "jupiter125",
+    "name": "TVS Jupiter 125 SmartXonnect",
+    "brand": "TVS",
+    "type": "Scooter",
+    "pricePerDay": 649,
+    "deposit": 1800,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "tvs-jupiter-125.jpg",
+    "engine": "124.8 cc",
+    "power": "8.15 PS",
+    "torque": "10.5 Nm",
+    "weight": "108 kg",
+    "seat": "765 mm",
+    "topSpeed": "92 km/h",
+    "fuelCap": "5.1 L",
+    "extra": {
+      "aiMatch": "97% Match",
+      "dna": {
+        "comfort": 95,
+        "adventure": 52,
+        "city": 98,
+        "beginner": 98,
+        "longRide": 65,
+        "mileage": 96,
+        "bestFor": "33L Underseat Boot Storage & City Commute"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "ntorq125",
+    "name": "TVS Ntorq 125 Race Edition",
+    "brand": "TVS",
+    "type": "Scooter",
+    "pricePerDay": 749,
+    "deposit": 2000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "tvs-ntorq-125.jpg",
+    "engine": "124.8 cc",
+    "power": "9.38 PS",
+    "torque": "10.6 Nm",
+    "weight": "116 kg",
+    "seat": "770 mm",
+    "topSpeed": "98 km/h",
+    "fuelCap": "5.8 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 88,
+        "adventure": 62,
+        "city": 96,
+        "beginner": 90,
+        "longRide": 72,
+        "mileage": 90,
+        "bestFor": "Sporty Acceleration & Bluetooth Navigation"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "burgman125",
+    "name": "Suzuki Burgman Street 125 EX",
+    "brand": "Suzuki",
+    "type": "Scooter",
+    "pricePerDay": 799,
+    "deposit": 2200,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "suzuki-burgman-125.jpg",
+    "engine": "124 cc",
+    "power": "8.7 PS",
+    "torque": "10 Nm",
+    "weight": "111 kg",
+    "seat": "780 mm",
+    "topSpeed": "95 km/h",
+    "fuelCap": "5.5 L",
+    "extra": {
+      "aiMatch": "97% Match",
+      "dna": {
+        "comfort": 98,
+        "adventure": 58,
+        "city": 95,
+        "beginner": 92,
+        "longRide": 78,
+        "mileage": 92,
+        "bestFor": "Luxury Maxi Scooter Footrest Ergonomics"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "aerox",
+    "name": "Yamaha Aerox 155 Maxi Sport",
+    "brand": "Yamaha",
+    "type": "Scooter",
+    "pricePerDay": 899,
+    "deposit": 2500,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "yamaha-aerox-155.jpg",
+    "engine": "155 cc VVA",
+    "power": "15 PS",
+    "torque": "13.9 Nm",
+    "weight": "126 kg",
+    "seat": "790 mm",
+    "topSpeed": "120 km/h",
+    "fuelCap": "5.5 L",
+    "extra": {
+      "aiMatch": "99% Match",
+      "dna": {
+        "comfort": 88,
+        "adventure": 68,
+        "city": 98,
+        "beginner": 85,
+        "longRide": 82,
+        "mileage": 88,
+        "bestFor": "155cc R15 Engine Maxi Scooter Highways"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "vespa150",
+    "name": "Vespa Elegante 150 Speciale",
+    "brand": "Vespa",
+    "type": "Scooter",
+    "pricePerDay": 999,
+    "deposit": 3000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "available": true,
+    "imgFile": "vespa-elegante-150.jpg",
+    "engine": "149 cc",
+    "power": "10.4 PS",
+    "torque": "11 Nm",
+    "weight": "115 kg",
+    "seat": "770 mm",
+    "topSpeed": "102 km/h",
+    "fuelCap": "7.4 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 94,
+        "adventure": 55,
+        "city": 96,
+        "beginner": 90,
+        "longRide": 75,
+        "mileage": 86,
+        "bestFor": "Italian Monocoque Steel Fashion Cruising"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "himalayan",
+    "name": "Himalayan 450 Summit",
+    "brand": "Royal Enfield",
+    "type": "Adventure",
+    "pricePerDay": 1499,
+    "deposit": 4000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "himalayan-450.jpg",
+    "engine": "452 cc",
+    "power": "40 PS",
+    "torque": "40 Nm",
+    "weight": "196 kg",
+    "seat": "825 mm",
+    "topSpeed": "151 km/h",
+    "fuelCap": "17 L",
+    "extra": {
+      "aiMatch": "99% Match",
+      "dna": {
+        "comfort": 94,
+        "adventure": 99,
+        "city": 82,
+        "beginner": 74,
+        "longRide": 97,
+        "mileage": 84,
+        "bestFor": "Alpine Passes + Long Distance Offroad"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "bmw310",
+    "name": "BMW G 310 GS Alpine",
+    "brand": "BMW",
+    "type": "Adventure",
+    "pricePerDay": 1899,
+    "deposit": 5000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "bmw-g310-gs.jpg",
+    "engine": "313 cc",
+    "power": "34 PS",
+    "torque": "28 Nm",
+    "weight": "175 kg",
+    "seat": "835 mm",
+    "topSpeed": "143 km/h",
+    "fuelCap": "11 L",
+    "extra": {
+      "aiMatch": "99% Match",
+      "dna": {
+        "comfort": 94,
+        "adventure": 99,
+        "city": 84,
+        "beginner": 80,
+        "longRide": 96,
+        "mileage": 85,
+        "bestFor": "Alpine Passes + Mountain Trails"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "hd440",
+    "name": "Harley-Davidson X440 Roadster",
+    "brand": "Harley-Davidson",
+    "type": "Cruiser",
+    "pricePerDay": 1649,
+    "deposit": 4000,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "harley-davidson-x440.jpg",
+    "engine": "440 cc",
+    "power": "27 PS",
+    "torque": "38 Nm",
+    "weight": "190 kg",
+    "seat": "805 mm",
+    "topSpeed": "135 km/h",
+    "fuelCap": "13.5 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 92,
+        "adventure": 82,
+        "city": 86,
+        "beginner": 80,
+        "longRide": 94,
+        "mileage": 82,
+        "bestFor": "Neo-Retro Expressway Cruising"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "iron883",
+    "name": "Harley-Davidson Iron 883 Dark",
+    "brand": "Harley-Davidson",
+    "type": "Cruiser",
+    "pricePerDay": 3499,
+    "deposit": 10000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "harley-davidson-iron-883.jpg",
+    "engine": "883 cc V-Twin",
+    "power": "51 PS",
+    "torque": "68 Nm",
+    "weight": "256 kg",
+    "seat": "760 mm",
+    "topSpeed": "175 km/h",
+    "fuelCap": "12.5 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 90,
+        "adventure": 68,
+        "city": 72,
+        "beginner": 50,
+        "longRide": 92,
+        "mileage": 68,
+        "bestFor": "Raw American V-Twin Rumble & Pride"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐",
+        "beginner": "⭐",
+        "mileage": "⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "hness350",
+    "name": "Honda Hness CB350 DLX Pro",
+    "brand": "Honda",
+    "type": "Cruiser",
+    "pricePerDay": 1349,
+    "deposit": 3500,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "honda-hness-cb350.jpg",
+    "engine": "348 cc",
+    "power": "21 PS",
+    "torque": "30 Nm",
+    "weight": "181 kg",
+    "seat": "800 mm",
+    "topSpeed": "132 km/h",
+    "fuelCap": "15 L",
+    "extra": {
+      "aiMatch": "97% Match",
+      "dna": {
+        "comfort": 95,
+        "adventure": 78,
+        "city": 90,
+        "beginner": 88,
+        "longRide": 92,
+        "mileage": 88,
+        "bestFor": "Ultra Refined Slipper Clutch Highway Cruising"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "eliminator450",
+    "name": "Kawasaki Eliminator 450",
+    "brand": "Kawasaki",
+    "type": "Cruiser",
+    "pricePerDay": 2199,
+    "deposit": 6000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "kawasaki-eliminator-450.png",
+    "engine": "451 cc Parallel",
+    "power": "45 PS",
+    "torque": "42.6 Nm",
+    "weight": "176 kg",
+    "seat": "735 mm",
+    "topSpeed": "160 km/h",
+    "fuelCap": "13 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 96,
+        "adventure": 78,
+        "city": 88,
+        "beginner": 82,
+        "longRide": 95,
+        "mileage": 82,
+        "bestFor": "Lightweight Ninja-Engineered Urban Cruiser"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "trident",
+    "name": "Triumph Trident 660",
+    "brand": "Triumph",
+    "type": "Roadster",
+    "pricePerDay": 1699,
+    "deposit": 5000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "triumph-trident-660.jpg",
+    "engine": "660 cc Triple",
+    "power": "81 PS",
+    "torque": "64 Nm",
+    "weight": "189 kg",
+    "seat": "805 mm",
+    "topSpeed": "212 km/h",
+    "fuelCap": "14 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 90,
+        "adventure": 85,
+        "city": 88,
+        "beginner": 72,
+        "longRide": 94,
+        "mileage": 80,
+        "bestFor": "Triple Cylinder Whine & Expressway Twisties"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "gt650",
+    "name": "Continental GT 650 Twin",
+    "brand": "Royal Enfield",
+    "type": "Roadster",
+    "pricePerDay": 1799,
+    "deposit": 4500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-continental-gt-650.jpg",
+    "engine": "648 cc Twin",
+    "power": "47 PS",
+    "torque": "52 Nm",
+    "weight": "212 kg",
+    "seat": "804 mm",
+    "topSpeed": "174 km/h",
+    "fuelCap": "12.5 L",
+    "extra": {
+      "aiMatch": "97% Match",
+      "dna": {
+        "comfort": 85,
+        "adventure": 80,
+        "city": 84,
+        "beginner": 68,
+        "longRide": 92,
+        "mileage": 78,
+        "bestFor": "Retro Cafe Racer & Expressway Runs"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐",
+        "mileage": "⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "guerrilla450",
+    "name": "Guerrilla 450 Roadster",
+    "brand": "Royal Enfield",
+    "type": "Roadster",
+    "pricePerDay": 1599,
+    "deposit": 4000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-guerrilla-450.jpg",
+    "engine": "452 cc Sherpa",
+    "power": "40 PS",
+    "torque": "40 Nm",
+    "weight": "185 kg",
+    "seat": "780 mm",
+    "topSpeed": "155 km/h",
+    "fuelCap": "11 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 88,
+        "adventure": 84,
+        "city": 94,
+        "beginner": 80,
+        "longRide": 90,
+        "mileage": 82,
+        "bestFor": "Aggressive Sherpa 450 Roadster Cornering"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "hunter350",
+    "name": "Hunter 350 Urban",
+    "brand": "Royal Enfield",
+    "type": "Roadster",
+    "pricePerDay": 1249,
+    "deposit": 3000,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "royal-enfield-hunter-350.png",
+    "engine": "349 cc",
+    "power": "20.2 PS",
+    "torque": "27 Nm",
+    "weight": "181 kg",
+    "seat": "790 mm",
+    "topSpeed": "114 km/h",
+    "fuelCap": "13 L",
+    "extra": {
+      "aiMatch": "95% Match",
+      "dna": {
+        "comfort": 86,
+        "adventure": 72,
+        "city": 96,
+        "beginner": 92,
+        "longRide": 80,
+        "mileage": 90,
+        "bestFor": "City Commute & Nimble Traffic"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "speed400",
+    "name": "Triumph Speed 400",
+    "brand": "Triumph",
+    "type": "Roadster",
+    "pricePerDay": 1549,
+    "deposit": 4000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "triumph-speed-400.png",
+    "engine": "398 cc",
+    "power": "40 PS",
+    "torque": "37.5 Nm",
+    "weight": "176 kg",
+    "seat": "790 mm",
+    "topSpeed": "155 km/h",
+    "fuelCap": "13 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 92,
+        "adventure": 86,
+        "city": 94,
+        "beginner": 85,
+        "longRide": 92,
+        "mileage": 84,
+        "bestFor": "Neo-Retro City & Highway Crossover"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "duke",
+    "name": "KTM Duke 390 Gen-3",
+    "brand": "KTM",
+    "type": "Sport",
+    "pricePerDay": 1599,
+    "deposit": 4000,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "ktm-duke-390.jpg",
+    "engine": "399 cc LC4c",
+    "power": "46 PS",
+    "torque": "39 Nm",
+    "weight": "168 kg",
+    "seat": "820 mm",
+    "topSpeed": "168 km/h",
+    "fuelCap": "15 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 82,
+        "adventure": 84,
+        "city": 90,
+        "beginner": 65,
+        "longRide": 82,
+        "mileage": 78,
+        "bestFor": "Corner Rocket & Aggressive Track Days"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐",
+        "mileage": "⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "cb350rs",
+    "name": "Honda CB350RS Scrambler",
+    "brand": "Honda",
+    "type": "Roadster",
+    "pricePerDay": 1299,
+    "deposit": 3500,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "honda-cb350rs.jpg",
+    "engine": "348 cc",
+    "power": "21 PS",
+    "torque": "30 Nm",
+    "weight": "179 kg",
+    "seat": "800 mm",
+    "topSpeed": "130 km/h",
+    "fuelCap": "15 L",
+    "extra": {
+      "aiMatch": "95% Match",
+      "dna": {
+        "comfort": 90,
+        "adventure": 78,
+        "city": 92,
+        "beginner": 88,
+        "longRide": 88,
+        "mileage": 88,
+        "bestFor": "Refined Scrambler Weekend Excursions"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "mt15",
+    "name": "Yamaha MT-15 V2 Dark Warrior",
+    "brand": "Yamaha",
+    "type": "Sport",
+    "pricePerDay": 1099,
+    "deposit": 3000,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "yamaha-mt-15-v2.jpg",
+    "engine": "155 cc VVA",
+    "power": "18.4 PS",
+    "torque": "14.1 Nm",
+    "weight": "141 kg",
+    "seat": "810 mm",
+    "topSpeed": "130 km/h",
+    "fuelCap": "10 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 82,
+        "adventure": 74,
+        "city": 98,
+        "beginner": 85,
+        "longRide": 78,
+        "mileage": 92,
+        "bestFor": "Hyper-Naked City Agility & Street Performance"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "ninja400",
+    "name": "Kawasaki Ninja 400 Supersport",
+    "brand": "Kawasaki",
+    "type": "Sport",
+    "pricePerDay": 1999,
+    "deposit": 5500,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "kawasaki-ninja-400.jpg",
+    "engine": "399 cc Twin",
+    "power": "45 PS",
+    "torque": "37 Nm",
+    "weight": "168 kg",
+    "seat": "785 mm",
+    "topSpeed": "188 km/h",
+    "fuelCap": "14 L",
+    "extra": {
+      "aiMatch": "97% Match",
+      "dna": {
+        "comfort": 84,
+        "adventure": 75,
+        "city": 88,
+        "beginner": 75,
+        "longRide": 86,
+        "mileage": 80,
+        "bestFor": "High Revving Twin Supersport Highways"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "ducati",
+    "name": "Ducati Scrambler 800 Icon",
+    "brand": "Ducati",
+    "type": "Sport",
+    "pricePerDay": 2499,
+    "deposit": 8000,
+    "rating": "5.0",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "ducati-scrambler-800.jpg",
+    "engine": "803 cc L-Twin",
+    "power": "73 PS",
+    "torque": "65.2 Nm",
+    "weight": "185 kg",
+    "seat": "795 mm",
+    "topSpeed": "200 km/h",
+    "fuelCap": "13.5 L",
+    "extra": {
+      "aiMatch": "100% Match",
+      "dna": {
+        "comfort": 88,
+        "adventure": 90,
+        "city": 88,
+        "beginner": 60,
+        "longRide": 95,
+        "mileage": 72,
+        "bestFor": "Italian Luxury Desmodromic Performance"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐⭐",
+        "beginner": "⭐⭐",
+        "mileage": "⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "r15v4",
+    "name": "Yamaha YZF R15 V4 Racing Blue",
+    "brand": "Yamaha",
+    "type": "Sport",
+    "pricePerDay": 1199,
+    "deposit": 3000,
+    "rating": "4.8",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "yamaha-r15-v4.jpg",
+    "engine": "155 cc VVA",
+    "power": "18.4 PS",
+    "torque": "14.2 Nm",
+    "weight": "142 kg",
+    "seat": "815 mm",
+    "topSpeed": "140 km/h",
+    "fuelCap": "11 L",
+    "extra": {
+      "aiMatch": "96% Match",
+      "dna": {
+        "comfort": 76,
+        "adventure": 72,
+        "city": 86,
+        "beginner": 80,
+        "longRide": 78,
+        "mileage": 90,
+        "bestFor": "Track Ergonomics & Quickshifter Supersport"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐⭐⭐",
+        "mileage": "⭐⭐⭐⭐⭐"
+      }
+    }
+  },
+  {
+    "id": "daytona675r",
+    "name": "Triumph Daytona 675R",
+    "brand": "Triumph",
+    "type": "Sport",
+    "pricePerDay": 2299,
+    "deposit": 7500,
+    "rating": "4.9",
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "available": true,
+    "imgFile": "triumph-daytona-675r.jpg",
+    "engine": "675 cc Triple",
+    "power": "128 PS",
+    "torque": "72 Nm",
+    "weight": "184 kg",
+    "seat": "820 mm",
+    "topSpeed": "257 km/h",
+    "fuelCap": "17.4 L",
+    "extra": {
+      "aiMatch": "98% Match",
+      "dna": {
+        "comfort": 78,
+        "adventure": 70,
+        "city": 76,
+        "beginner": 55,
+        "longRide": 84,
+        "mileage": 68,
+        "bestFor": "Track Days, Canyon Carving & Premium Supersport Riding"
+      },
+      "stars": {
+        "comfort": "⭐⭐⭐⭐",
+        "mountain": "⭐⭐⭐⭐",
+        "beginner": "⭐⭐",
+        "mileage": "⭐⭐⭐"
+      }
+    }
+  }
+]

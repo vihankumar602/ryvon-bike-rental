@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css?v=27" />
+    <link rel="stylesheet" href="assets/css/style.css?v=74" />
   </head>
   <body data-page="home" data-loading-label="LOADING">
     <!-- RYVON Reusable Preloader Component -->
@@ -92,7 +92,6 @@
           <li><a href="pages/bikes.html">Explore Fleet</a></li>
           <li><a href="pages/destinations.html">Curated Journeys</a></li>
           <li><a href="pages/bikes.html#ai-build">Build My Ride AI ✨</a></li>
-          <li><a href="pages/about.html">Brand Story</a></li>
           <li><a href="pages/bikes.html#fleet-status">Fleet Status</a></li>
         </ul>
         <div class="header-actions">
@@ -107,7 +106,7 @@
             </button>
           </div>
           <a class="user-avatar-btn desktop-only" href="pages/login.html" title="User Account">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="User Profile" class="user-avatar-img" />
+            <span class="user-avatar-img user-avatar-initial" aria-hidden="true">I</span>
             <span class="avatar-arrow">▾</span>
           </a>
           <button class="icon-btn cmdk-open-btn" type="button" data-action="cmdk" aria-label="Quick search (Ctrl+K)">⌕</button>
@@ -431,7 +430,7 @@
             <div class="socials"><a class="social" href="#">ig</a><a class="social" href="#">𝕏</a><a class="social" href="#">yt</a></div>
           </div>
           <div class="footer-col"><h3>Fleet & Routes</h3><a href="pages/bikes.html">All Motorcycles</a><a href="pages/destinations.html">Expedition Zones</a><a href="pages/bikes.html?type=Adventure">Adventure Fleet</a><a href="pages/wishlist.html">Saved Shortlist</a></div>
-          <div class="footer-col"><h3>RideOS Intelligence</h3><a href="pages/about.html">Brand Story</a><a href="pages/faq.html">FAQs & Safety</a><a href="pages/contact.html">Ride Command Hub</a><a href="#" data-action="ai-assistant">AI Ride Planner</a></div>
+          <div class="footer-col"><h3>RideOS Intelligence</h3><a href="pages/faq.html">FAQs & Safety</a><a href="pages/contact.html">Ride Command Hub</a><a href="#" data-action="ai-assistant">AI Ride Planner</a></div>
           <div class="footer-col"><h3>Members Circle</h3><a href="pages/dashboard.html">Telemetry Dashboard</a><a href="pages/booking-history.html">Journey Logs</a><a href="pages/profile.html">Rider Profile</a><a href="pages/login.html">Member Sign in</a></div>
         </div>
         <div class="footer-bottom"><span>© 2026 RYVON Technologies. Engineered for the scenic detour.</span><span>Privacy Policy · Terms of Service · Safety Charter</span></div>
@@ -441,6 +440,64 @@
     <button class="back-top" type="button" aria-label="Back to top">↑</button>
     <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
     <div class="modal-root"></div>
-    <script src="assets/js/app.js?v=39" defer></script>
+
+    <!-- RYVON Mobile Bottom Navigation Bar (Mobile & Tablet) -->
+    <div id="mobile-bottom-nav-root">
+      <nav class="mobile-bottom-nav" id="mobile-bottom-nav" aria-label="Mobile Navigation">
+        <a class="bottom-nav-item active" href="index.html" data-nav="home" aria-label="Home">
+          <div class="bottom-nav-icon-box">
+            <svg class="nav-svg-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#070a0f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 10.5L12 3l9 7.5V20a1.5 1.5 0 0 1-1.5 1.5H4.5A1.5 1.5 0 0 1 3 20v-9.5z"/>
+              <polyline points="9 21 9 13 15 13 15 21"/>
+            </svg>
+          </div>
+          <span class="bottom-nav-label">Home</span>
+        </a>
+        <a class="bottom-nav-item" href="pages/bikes.html" data-nav="fleet" aria-label="Explore Fleet">
+          <div class="bottom-nav-icon-box">
+            <svg class="nav-svg-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="5.5" cy="17" r="3.2"/>
+              <circle cx="18.5" cy="17" r="3.2"/>
+              <path d="M5.5 17l4.5-8.5h5l2.5 8.5"/>
+              <path d="M10 8.5l4 8.5"/>
+              <path d="M13.5 5.5h3.5"/>
+            </svg>
+          </div>
+          <span class="bottom-nav-label">Fleet</span>
+        </a>
+        <a class="bottom-nav-item" href="pages/booking-history.html" data-nav="journeys" aria-label="My Journeys">
+          <div class="bottom-nav-icon-box" style="position:relative">
+            <svg class="nav-svg-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="8" y1="13" x2="16" y2="13"/>
+              <line x1="8" y1="17" x2="13" y2="17"/>
+            </svg>
+            <span class="bottom-nav-badge-dot"></span>
+          </div>
+          <span class="bottom-nav-label">Journeys</span>
+        </a>
+        <a class="bottom-nav-item" href="pages/destinations.html" data-nav="destinations" aria-label="Destinations">
+          <div class="bottom-nav-icon-box">
+            <svg class="nav-svg-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2.5 19L9.5 7.5L14 15L17.5 10L22 19H2.5Z"/>
+            </svg>
+          </div>
+          <span class="bottom-nav-label">Destinations</span>
+        </a>
+        <button class="bottom-nav-item" id="bottom-nav-more-btn" type="button" aria-label="More Options" aria-haspopup="dialog" aria-expanded="false" data-nav="more">
+          <div class="bottom-nav-icon-box">
+            <svg class="nav-svg-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <circle cx="5.5" cy="12" r="2.2"/>
+              <circle cx="12" cy="12" r="2.2"/>
+              <circle cx="18.5" cy="12" r="2.2"/>
+            </svg>
+          </div>
+          <span class="bottom-nav-label">More</span>
+        </button>
+      </nav>
+    </div>
+
+    <script src="assets/js/app.js?v=74" defer></script>
     </body>
 </html>

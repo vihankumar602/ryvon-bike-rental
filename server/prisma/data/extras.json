@@ -1,0 +1,37 @@
+[
+  {
+    "id": "helmet",
+    "name": "ISI & ECE Certified Rider Helmet",
+    "pricePerDay": 0
+  },
+  {
+    "id": "pillion-helmet",
+    "name": "Pillion Rider Certified Helmet",
+    "pricePerDay": 179
+  },
+  {
+    "id": "insurance",
+    "name": "Comprehensive Zero-Deductible Cover",
+    "pricePerDay": 199
+  },
+  {
+    "id": "luggage",
+    "name": "50L Waterproof Saddlebags & Straps",
+    "pricePerDay": 299
+  },
+  {
+    "id": "phone-mount",
+    "name": "Vibration-Dampened Phone Mount + USB",
+    "pricePerDay": 149
+  },
+  {
+    "id": "jacket",
+    "name": "CE-Level 2 Armored Riding Jacket",
+    "pricePerDay": 249
+  },
+  {
+    "id": "action-cam",
+    "name": "4K Action Cam & Helmet Chin Mount",
+    "pricePerDay": 299
+  }
+]

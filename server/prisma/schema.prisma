@@ -1,0 +1,111 @@
+// RYVON database schema.
+// NOTE: the overlap-prevention exclusion constraint and CHECK constraints live in
+// prisma/migrations/*_init/migration.sql (Prisma cannot express them in this file).
+
+generator client {
+  provider   = "prisma-client-js"
+  engineType = "client" // engine-free client; uses the @prisma/adapter-pg driver adapter
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum BookingStatus {
+  CONFIRMED
+  CANCELLED
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  REFUNDED
+}
+
+model User {
+  id            String    @id @default(uuid()) @db.Uuid
+  name          String
+  email         String    @unique
+  passwordHash  String?
+  googleId      String?   @unique
+  phone         String?
+  licenseNumber String?
+  avatar        String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  bookings      Booking[]
+
+  @@map("users")
+}
+
+model Bike {
+  id           String    @id
+  name         String
+  brand        String
+  type         String
+  pricePerDay  Int
+  deposit      Int
+  rating       Decimal   @db.Decimal(2, 1)
+  fuel         String
+  transmission String
+  available    Boolean   @default(true)
+  imgFile      String
+  engine       String
+  power        String
+  torque       String
+  weight       String
+  seat         String
+  topSpeed     String
+  fuelCap      String
+  extra        Json
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  bookings     Booking[]
+
+  @@map("bikes")
+}
+
+model RentalExtra {
+  id          String  @id
+  name        String
+  pricePerDay Int
+  active      Boolean @default(true)
+
+  @@map("rental_extras")
+}
+
+model Booking {
+  id             String        @id // human-readable reference, e.g. RDS-2026-483920
+  userId         String        @db.Uuid
+  bikeId         String
+  startDate      DateTime      @db.Date
+  endDate        DateTime      @db.Date
+  days           Int
+  pickupTime     String
+  pickupHub      String
+  destination    String?
+  source         String?
+  dailyRate      Int
+  rentalAmount   Int
+  extrasAmount   Int
+  discountAmount Int           @default(0)
+  serviceFee     Int
+  gstAmount      Int
+  totalAmount    Int
+  depositAmount  Int
+  couponCode     String?
+  extras         Json
+  paymentMode    String
+  paymentStatus  PaymentStatus @default(PENDING)
+  status         BookingStatus @default(CONFIRMED)
+  cancelledAt    DateTime?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  user           User          @relation(fields: [userId], references: [id], onDelete: Restrict)
+  bike           Bike          @relation(fields: [bikeId], references: [id], onDelete: Restrict)
+
+  @@index([userId, createdAt])
+  @@index([bikeId, startDate, endDate])
+  @@map("bookings")
+}
