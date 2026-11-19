@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="RYVON — World's most intelligent AI-powered motorcycle & scooter rental platform." />
+    <title>RYVON — Rent the moment. Engineered for freedom.</title>
+    <link rel="icon" type="image/png" href="/ryvon-bike-rental/assets/images/ryvon-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <script>
+      (function() {
+        var theme = localStorage.getItem('rideos-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+
+        // Automatic base-path normalization for GitHub Pages assets
+        var basePath = '/ryvon-bike-rental/';
+        if (window.location.pathname.startsWith(basePath)) {
+          var origSetAttribute = Element.prototype.setAttribute;
+          Element.prototype.setAttribute = function(name, val) {
+            if ((name === 'src' || name === 'href') && typeof val === 'string' && val.startsWith('/assets/')) {
+              val = basePath + val.slice(1);
+            }
+            return origSetAttribute.call(this, name, val);
+          };
+          var origImgSrc = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, 'src');
+          if (origImgSrc && origImgSrc.set) {
+            Object.defineProperty(HTMLImageElement.prototype, 'src', {
+              get: function() { return origImgSrc.get.call(this); },
+              set: function(val) {
+                if (typeof val === 'string' && val.startsWith('/assets/')) {
+                  val = basePath + val.slice(1);
+                }
+                return origImgSrc.set.call(this, val);
+              },
+              configurable: true
+            });
+          }
+        }
+
+        // Seamless fallback: If served directly by GitHub Pages branch deploy
+        if (window.location.hostname.indexOf('github.io') !== -1) {
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.crossOrigin = 'anonymous';
+          link.href = basePath + 'assets/index-DQH4-AbW.css';
+          document.head.appendChild(link);
+
+          var script = document.createElement('script');
+          script.type = 'module';
+          script.crossOrigin = 'anonymous';
+          script.src = basePath + 'assets/index-Do1rofIk.js';
+          document.head.appendChild(script);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/ryvon-bike-rental/assets/index-Do1rofIk.js"></script>
+    <link rel="stylesheet" crossorigin href="/ryvon-bike-rental/assets/index-DQH4-AbW.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
