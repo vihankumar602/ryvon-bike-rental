@@ -45,12 +45,26 @@
             });
           }
         }
+
+        // Seamless fallback: If served directly by GitHub Pages branch deploy
+        if (window.location.hostname.indexOf('github.io') !== -1) {
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.crossOrigin = 'anonymous';
+          link.href = basePath + 'assets/index-DQH4-AbW.css';
+          document.head.appendChild(link);
+
+          var script = document.createElement('script');
+          script.type = 'module';
+          script.crossOrigin = 'anonymous';
+          script.src = basePath + 'assets/index-Do1rofIk.js';
+          document.head.appendChild(script);
+        }
       })();
     </script>
-    <script type="module" crossorigin src="/ryvon-bike-rental/assets/index-Do1rofIk.js"></script>
-    <link rel="stylesheet" crossorigin href="/ryvon-bike-rental/assets/index-DQH4-AbW.css">
   </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
