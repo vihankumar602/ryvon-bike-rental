@@ -20,6 +20,31 @@
         if (theme === 'dark') {
           document.documentElement.classList.add('dark');
         }
+
+        // Automatic base-path normalization for GitHub Pages assets
+        var basePath = '/ryvon-bike-rental/';
+        if (window.location.pathname.startsWith(basePath)) {
+          var origSetAttribute = Element.prototype.setAttribute;
+          Element.prototype.setAttribute = function(name, val) {
+            if ((name === 'src' || name === 'href') && typeof val === 'string' && val.startsWith('/assets/')) {
+              val = basePath + val.slice(1);
+            }
+            return origSetAttribute.call(this, name, val);
+          };
+          var origImgSrc = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, 'src');
+          if (origImgSrc && origImgSrc.set) {
+            Object.defineProperty(HTMLImageElement.prototype, 'src', {
+              get: function() { return origImgSrc.get.call(this); },
+              set: function(val) {
+                if (typeof val === 'string' && val.startsWith('/assets/')) {
+                  val = basePath + val.slice(1);
+                }
+                return origImgSrc.set.call(this, val);
+              },
+              configurable: true
+            });
+          }
+        }
       })();
     </script>
   </head>

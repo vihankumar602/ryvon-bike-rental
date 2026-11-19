@@ -19,6 +19,11 @@ Thumbs.db
 *.log
 
 # Build/cache
-dist/
-build/
+/dist/
+/build/
 .cache/
+
+# Local scratches and nested archive
+/scratch/
+scratch_*.ps1
+/Ryvon Bike Rental neww/
