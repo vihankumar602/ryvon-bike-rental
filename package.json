@@ -8,7 +8,7 @@
     "dev:vite": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "node \"Ryvon Bike Rental neww/Ryvon Bike Rental/Ryvon Bike Rental/server/src/server.js\""
+    "server": "node server/src/server.js"
   },
   "dependencies": {
     "react": "^18.3.1",

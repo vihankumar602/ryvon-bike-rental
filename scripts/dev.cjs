@@ -1,8 +1,11 @@
 const { spawn } = require('child_process');
 const path = require('path');
+const fs = require('fs');
 
 const rootDir = path.resolve(__dirname, '..');
-const serverScript = path.join(rootDir, 'Ryvon Bike Rental neww/Ryvon Bike Rental/Ryvon Bike Rental/server/src/server.js');
+const serverScript = fs.existsSync(path.join(rootDir, 'server/src/server.js'))
+  ? path.join(rootDir, 'server/src/server.js')
+  : path.join(rootDir, 'Ryvon Bike Rental neww/Ryvon Bike Rental/Ryvon Bike Rental/server/src/server.js');
 const viteBin = path.join(rootDir, 'node_modules/vite/bin/vite.js');
 
 console.log('====================================================');
