@@ -50,6 +50,17 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Fallback banner if GitHub Pages is serving uncompiled source from main branch root
+      window.addEventListener('error', function(e) {
+        if (e.target && (e.target.src || '').indexOf('/src/main.jsx') !== -1) {
+          var root = document.getElementById('root');
+          if (root) {
+            root.innerHTML = '<div style="font-family:system-ui,-apple-system,sans-serif;max-width:620px;margin:80px auto;padding:32px;background:#0b0f19;color:#e2e8f0;border-radius:16px;border:1px solid #1e293b;box-shadow:0 20px 40px rgba(0,0,0,0.5);text-align:center;"><h2 style="color:#f97316;margin-bottom:12px;font-size:22px;letter-spacing:-0.02em;">RYVON — GitHub Pages Configuration</h2><p style="color:#94a3b8;line-height:1.6;margin-bottom:20px;font-size:14px;">The Vite production build succeeded and has been published via GitHub Actions, but your GitHub repository is currently serving raw source files directly from the <code>main</code> branch root instead of the build output.</p><div style="text-align:left;background:#111827;padding:18px 24px;border-radius:10px;font-size:13px;color:#cbd5e1;margin-bottom:24px;border:1px solid #1f2937;"><strong style="color:#fff;">To activate the live site in 10 seconds:</strong><ol style="margin:10px 0 0 20px;padding:0;line-height:1.8;"><li>Go to <b>GitHub &rarr; Settings &rarr; Pages</b></li><li>Under <b>Build and deployment &rarr; Source</b>, select <b>GitHub Actions</b> (or Branch: <b>gh-pages</b>)</li><li>Refresh this page!</li></ol></div><a href="https://github.com/vihankumar602/ryvon-bike-rental/settings/pages" target="_blank" style="display:inline-block;padding:12px 24px;background:#f97316;color:#ffffff;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;box-shadow:0 4px 14px rgba(249,115,22,0.4);">Open GitHub Pages Settings &rarr;</a></div>';
+          }
+        }
+      }, true);
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
